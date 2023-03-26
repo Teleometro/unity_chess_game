@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 84fcb38155f8a9e438f625575badea94
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - movementTile: {instanceID: 0}
+  - captureTile: {instanceID: 0}
+  - blackSprite: {instanceID: 0}
+  - eventSystem: {fileID: 1456596489630684, guid: b016d633ac7999d4980236463fe28489,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

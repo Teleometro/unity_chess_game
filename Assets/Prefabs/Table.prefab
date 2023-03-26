@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1773435550719032}
+  m_IsPrefabAsset: 1
+--- !u!1 &1773435550719032
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4154000996641280}
+  - component: {fileID: 114217917490287026}
+  m_Layer: 4
+  m_Name: Table
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4154000996641280
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1773435550719032}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.61860245, y: 0.8591785, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114217917490287026
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1773435550719032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d166fa24547582b4d88ad91c4812387a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whiteTile: {fileID: 1604993130735734, guid: c10c86ae90aea564484be75842120da8, type: 2}
+  blackTile: {fileID: 1534233334394004, guid: 0b347f213663d7d459f90628ac9e73b5, type: 2}
+  pawn: {fileID: 1062436480359530, guid: 51c86059f47afba4cbc04ed6b131786a, type: 2}
+  queen: {fileID: 1545844053558296, guid: dbfeaa424f2804c4ebc611c4c1943ae1, type: 2}
+  king: {fileID: 1071429526676190, guid: 5bd8880f903e370418a5d03b9bf1f971, type: 2}
+  rook: {fileID: 1094796325488222, guid: cdc3e99b8e3f08041976450a31c29711, type: 2}
+  bishop: {fileID: 1972189359905456, guid: c96952e3ee6ccd54c8cc707cbfdafc8a, type: 2}
+  knight: {fileID: 1893056032148898, guid: 4025f072a6ff5fc418223ca1e901bca1, type: 2}
